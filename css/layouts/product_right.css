@@ -213,6 +213,7 @@
   font: inherit;
 }
 .owl-prev > span {
+  z-index: 10;
   margin-left: -17px;
   display: block;
   padding: 0px;
@@ -235,6 +236,7 @@
   font: inherit;
 }
 .owl-next > span {
+  z-index: 10;
   margin-left: 15px;
   display: block;
   padding: 0px;
