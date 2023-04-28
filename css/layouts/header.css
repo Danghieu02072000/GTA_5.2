@@ -1,0 +1,254 @@
+.logo {
+  font-family: 'Open Sans';
+  font-size: 24px;
+  color: #76ace6;
+}
+.nav-pc {
+  padding: 20px 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-pc__menu {
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
+  align-items: center;
+}
+.nav-pc__list {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.header-nav a {
+  color: #545761;
+  font-weight: 400;
+}
+.search-form-container {
+  display: none;
+}
+
+.search-form {
+  position: relative;
+}
+.nav-mobile__menu {
+  display: none;
+  position: absolute;
+  right: 10px;
+  top: 60px;
+}
+.nav-mobile__menu li {
+  padding: 12px;
+  width: 200px;
+  border: 1px solid #ebebeb;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.nav-mobile {
+  position: relative;
+}
+.nav-pc__search {
+  display: flex;
+  margin-left: 30px;
+}
+.search-input{
+  outline: none;
+  height: 44px;
+  border-radius: 22px;
+  background-color: #f2f5f7;
+  border: none;
+  box-shadow: none;
+  padding: 0 50px 0 20px;
+}
+.search-btn-submit {
+  position: absolute;
+  right: 10px;
+  top: 2px;
+  padding: 8px;
+  font-size: 20px;
+  color: #83858f;
+  background: transparent;
+  border: 0;
+}
+
+.search-form-btn {
+  font-size: 20px;
+  display: none;
+}
+/* mobile */
+.nav-mobile-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.nav-mobie-btn {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.nav-mobile .search-form input {
+  width: 100%;
+}
+submit.search-btn- {
+  background-color: unset;
+  border: none;
+  top: 3px;
+  right: 7px;
+}
+.nav-pc__list > li:hover {
+  color: #46bf00;
+}
+.show {
+  display: block;
+}
+.header-container {
+  padding: 20px;
+  margin: 0 auto;
+  width: 80%;
+}
+.search-input2 {
+    border: 1px solid #ededee;
+    width: 240px;
+    padding: 9px 15px;
+    border-radius: 5px;
+}
+.search-input2::placeholder {
+  color:#76ace6;
+  font-weight: 600;
+}
+.search-btn-submit2{
+  position: absolute;
+  right: 1px;
+  top: -2px;
+  padding: 8px;
+  font-size: 20px;
+  color: #83858f;
+  background: transparent;
+  border: 0;
+}
+.header-main {
+  background-color: #fff;
+}
+.nav-pc2 {
+  padding: 20px 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-mobile2 {
+  padding:20px;
+  box-shadow: 0 4px 24px 0 rgb(43 64 115 / 8%);
+}
+.list-button {
+  position: absolute;
+  font-size: 25px;
+  left: 10px;
+  z-index: 2;
+}
+.header-mobile2 .logo {
+  text-align: center;
+}
+.header-mobile2 {
+  display: none;
+}
+.mobile-overlay {
+    top: 0;
+    position: fixed;
+    z-index: 10;
+    background-color: #fff;
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    overflow: hidden;
+    padding-left: 20px;
+    transform: translateX(-200%);
+}
+.mobile-overlay .container {
+  flex-direction: column;
+  display: flex;
+  padding-top: 14px;
+  padding-bottom: 8px;
+}
+.mobile-overlay .img {
+    padding: 8px;
+    font-family: cursive;
+    font-size: 24px;
+    color: #ffc045;
+}
+.mobile-overlay input {
+  border: 1px solid #ededee;
+  width: 240px;
+  padding: 4px 15px;
+  border-radius: 5px;
+}
+.nav-input:checked ~ .mobile-overlay {
+  transform: translateX(0%);
+}
+.nav-input {
+  display: none;
+}
+.mobile-overlay__top {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.mobile-overlay__bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.mobile-overlay__bottom-list{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  justify-content: center;
+  align-items: center;
+}
+.mobile-overlay__bottom-list {
+  color: #4f535d;
+  font-size: 15px;
+  padding: 10px;
+}
+.mobile-overlay__bottom input{
+  border: 1px solid #ededee;
+  width: 240px;
+  padding: 11px 15px;
+  border-radius: 5px;
+}
+.mobile-overlay__bottom input::placeholder {
+  color: #76ace6;
+  font-weight: 700;
+}
+.mobile-overlay__bottom form {
+  position: relative;
+}
+.mobile-overlay__bottom .search {
+  text-align: center;
+}
+.mobile-overlay__bottom .button {
+  border: none;
+  outline: none;
+  background: transparent;
+  position: absolute;
+  right: 40px;
+  top: 10px;
+  color: #a0a4ae;
+  font-size: 12px;
+}
+.close {
+  font-size: 25px;
+}
+.logo2 {
+  padding: 8px;
+    font-family: cursive;
+    font-size: 24px;
+    color: #ffc045;
+}
+
