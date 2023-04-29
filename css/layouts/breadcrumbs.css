@@ -37,7 +37,9 @@
     align-items: center;
     justify-content: flex-start;
  }
-
+ .main__breadcrumbs-title:hover {
+  color: #ffc045;
+ }
  .download__desc {
     display: inline-block;
     color: #85888e;
