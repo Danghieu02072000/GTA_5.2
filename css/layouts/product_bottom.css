@@ -1,5 +1,7 @@
 .product__bottom {
   display: flex;
+  flex-direction: row;
+  gap:15px;
 }
 
 .product__bottom-second {

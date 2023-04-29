@@ -62,3 +62,12 @@
 .main-wrapper2 {
   background-color: aliceblue ;
 }
+.main-wrapper {
+  width: 80%;
+  max-width: 1240px;
+  padding: 0 20px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+

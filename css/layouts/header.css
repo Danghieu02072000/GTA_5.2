@@ -108,6 +108,7 @@ submit.search-btn- {
   display: block;
 }
 .header-container {
+  max-width: 1240px;
   padding: 20px;
   margin: 0 auto;
   width: 80%;
