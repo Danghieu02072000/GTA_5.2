@@ -152,6 +152,10 @@
     background-color: #00bceb;
     color: white;
 }
+.loader img {
+  width: 120px;
+  height: 120px;
+}
 .product__top-btn:hover , .product__top-btn:hover  {
   background-image: linear-gradient(270deg,#129821,#46bf00 0) !important;
   transition: all 0.3s;
